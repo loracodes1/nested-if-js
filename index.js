@@ -17,3 +17,6 @@ if (age >= 16) {
 
 canWork;
 console.log(canWork)
+console.log(canDrink)
+console.log(canEnlist)
+console.log(isAdult)
