@@ -15,7 +15,8 @@ if (age >= 16) {
   }
 }
 
-canWork;
+canWork; //the inner if statements will only execute if the outer ones are truthy
+
 console.log(canWork)
 console.log(canDrink)
 console.log(canEnlist)
