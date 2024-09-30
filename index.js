@@ -21,3 +21,19 @@ console.log(canWork)
 console.log(canDrink)
 console.log(canEnlist)
 console.log(isAdult)
+
+
+const order = 'mango';
+
+let ingredients;
+if (order === 'cheeseburger') {
+    ingredients = 'bun, burger, cheese, lettuce, tomato, onion';
+} else if (order === 'hamburger') {
+    ingredients = 'bun, burger, lettuce, tomato, onion';
+} else if (order === 'malted') {
+    ingredients = 'milk, ice cream, malted milk powder';
+} else {
+    console.log("Sorry, that's not on the menu right now.");
+}
+
+console.log(order)
